@@ -1,7 +1,25 @@
 /*
+id (Único por pág.) - llamarlo con #
+class (Varias) - llamarlo con . 
+
+
+
+CSS
 text- align = posición
 text- transform: mayuscula o minuscula
+fon-size: tamaño letra
+line-height: separación entre linea y linea de parrafos, 
+width: ancho
+height: alto
+padding: separar contenido del borde
+box-sizing: dentro del div
+margin: margenes 
 
+
+
+HTML
+span: destacar texto en parrafo
+div: caja contenedora
 */
 
 
@@ -16,6 +34,7 @@ body{
     margin: 0 auto;
     overflow: hidden;
     size: 100mm;
+    font-style: italic;
 }
 
 .img{
@@ -25,11 +44,13 @@ body{
 .datos{
     text-align: center;
     color: #043b04;
+    font-style: italic;
 }
 
 .datos p{
     text-align: center;
     color: #043b04;
+    font-style: italic;
 }
 
 
@@ -39,6 +60,7 @@ body{
 .resumen{
     text-align: center;
     color: #043b04;
+    font-style: italic;
 }
 
 
@@ -47,10 +69,12 @@ body{
 
 .fa{
     color: #043b04;
+    font-style: italic;
 }
 
 .fa1{
     color: #043b04;
+    font-style: italic;
 }
 
 
@@ -58,6 +82,7 @@ body{
 
 .el{
     color: #043b04;
+    font-style: italic;
 }
 
 
@@ -80,7 +105,7 @@ body{
 .footer a{
     text-align: center;
     width: 100%;
-    color: #043b04;
-	background: #caf0ca;
+    color: #1d009e;
+	background: #ffffff;
 	position: relative;
 }
