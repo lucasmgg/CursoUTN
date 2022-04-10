@@ -1,0 +1,86 @@
+/*
+text- align = posición
+text- transform: mayuscula o minuscula
+
+*/
+
+
+body{
+    background-color: #dbd7ff;
+}
+
+.header{
+    color: #043b04;
+    width: fit-content;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    size: 100mm;
+}
+
+.img{
+    text-align: center;
+}
+
+.datos{
+    text-align: center;
+    color: #043b04;
+}
+
+.datos p{
+    text-align: center;
+    color: #043b04;
+}
+
+
+
+
+
+.resumen{
+    text-align: center;
+    color: #043b04;
+}
+
+
+
+
+
+.fa{
+    color: #043b04;
+}
+
+.fa1{
+    color: #043b04;
+}
+
+
+
+
+.el{
+    color: #043b04;
+}
+
+
+
+
+
+
+.footer{  
+    text-align: right;
+    content: "";
+	display: inline-block;
+	height: 2px;
+	width: 100%;
+	background: #000000;
+	position: relative;
+	top: -29px;
+	z-index: 1;
+}
+
+.footer a{
+    text-align: center;
+    width: 100%;
+    color: #043b04;
+	background: #caf0ca;
+	position: relative;
+}
