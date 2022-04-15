@@ -1,0 +1,130 @@
+/*
+
+id (Único por pág.) - llamarlo con #
+class (Varias) - llamarlo con . 
+
+
+
+----CSS----
+text- align = posición
+text- transform: mayuscula o minuscula
+fon-size: tamaño letra
+line-height: separación entre linea y linea de parrafos, 
+width: ancho
+height: alto
+padding: separar contenido del borde
+box-sizing: dentro del div
+margin: margenes 
+GRANDIENTS (GRADIANTES) : colores para fondo (background)
+BORDE REDONDEADO: border-radius - border radius: 10px 10px 80px 0px
+SOMBRA: box-shadow (eje x - eje y - desenfoque- color)
+
+
+
+----HTML----
+span: destacar texto en parrafo
+div: caja contenedora
+*/
+
+
+body{
+    background-color: #dbd7ff;
+}
+
+
+.caja{
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    background: #06432f;
+    background: linear-gradient(38deg,#06432f 10%, #b2ffb2 80%);
+    background: -webkit-linear-gradient(38deg,#06432f 10%, #b2ffb2 80%);
+    background: -moz-linear-gradient(38deg,#06432f 10%, #b2ffb2 80%);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px 20px 80px 20px;
+    box-shadow: 10px 10px 5px;
+
+}
+.header{
+    color: #043b04;
+    width: fit-content;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    size: 100mm;
+    font-style: italic;
+}
+
+.img{
+    text-align: center;
+}
+
+.datos{
+    text-align: center;
+    color: #043b04;
+    font-style: italic;
+}
+
+.datos p{
+    text-align: center;
+    color: #043b04;
+    font-style: italic;
+}
+
+
+
+
+
+.resumen{
+    text-align: center;
+    color: #043b04;
+    font-style: italic;
+}
+
+
+
+
+
+.fa{
+    color: #043b04;
+    font-style: italic;
+}
+
+.fa1{
+    color: #043b04;
+    font-style: italic;
+}
+
+
+
+
+.el{
+    color: #043b04;
+    font-style: italic;
+}
+
+
+
+
+
+
+.footer{  
+    text-align: right;
+    content: "";
+	display: inline-block;
+	height: 2px;
+	width: 100%;
+	background: #000000;
+	position: relative;
+	top: -29px;
+	z-index: 1;
+}
+
+.footer a{
+    text-align: center;
+    width: 100%;
+    color: #1d009e;
+	background: #ffffff;
+	position: relative;
+}
