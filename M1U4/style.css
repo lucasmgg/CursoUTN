@@ -37,6 +37,12 @@ body{
     font-style: italic;
 }
 
+.imagen{
+    filter: grayscale(62%);
+    -webkit-filter: grayscale(62%);
+    -moz-filter: grayscale(62%);
+}
+
 .img{
     text-align: center;
 }
