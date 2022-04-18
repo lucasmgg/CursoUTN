@@ -82,6 +82,7 @@ body{
 }
 
 .datos{
+    color: #fafafa;
     width: 1000px;
     height: 300px;
     margin: 100px;
@@ -92,12 +93,13 @@ body{
     padding: 20px;
     box-sizing: border-box;
     border-radius: 20px 20px 80px 20px;
-    box-shadow: 10px 10px 5px;
+    box-shadow: 10px 10px 5px black;
 }
 
 
 
 .resumen{
+    color: #fafafa;
     width: 1000px;
     height: 300px;
     margin: 100px;
@@ -108,7 +110,7 @@ body{
     padding: 20px;
     box-sizing: border-box;
     border-radius: 20px 20px 80px 20px;
-    box-shadow: 10px 10px 5px;
+    box-shadow: 10px 10px 5px black;
 }
 
 
@@ -116,23 +118,46 @@ body{
 
 
 .fa{
-    color: #06432f;
-    font-family: 'Square Peg';
+    color: #fafafa;
     font-size: 30px;
 }
 
 .fa1{
-    color: #06432f;
+    color: #fafafa;
     font-style: italic;
+    width: 1000px;
+    height: 200px;
+    margin: 100px;
+    background: black;
+    background: linear-gradient(38deg,#06432f 10%, #b2ffb2 80%);
+    background: -webkit-linear-gradient(38deg,#06432f 10%, #b2ffb2 80%);
+    background: -moz-linear-gradient(38deg,#06432f 10%, #b2ffb2 80%);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px 20px 80px 20px;
+    box-shadow: 10px 10px 5px black;
 }
 
 
 
+.el1{
+    color: #fafafa;
+    font-style: italic;
+    width: 1000px;
+    height: 200px;
+    margin: 100px;
+    background: black;
+    background: linear-gradient(38deg,#06432f 10%, #b2ffb2 80%);
+    background: -webkit-linear-gradient(38deg,#06432f 10%, #b2ffb2 80%);
+    background: -moz-linear-gradient(38deg,#06432f 10%, #b2ffb2 80%);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px 20px 80px 20px;
+    box-shadow: 10px 10px 5px black;
+}
 
 .el{
-    color: #06432f;
-    font-style: italic;
-    font-family: 'Square Peg';
+    color: #ffffff;
     font-size: 30px;
 }
 
