@@ -15,10 +15,25 @@ height: alto
 padding: separar contenido del borde
 box-sizing: dentro del div
 margin: margenes 
-GRANDIENTS (GRADIANTES) : colores para fondo (background)
-BORDE REDONDEADO: border-radius - border radius: 10px 10px 80px 0px
-SOMBRA: box-shadow (eje x - eje y - desenfoque- color)
 
+GRANDIENTS (GRADIANTES) : colores para fondo (background)
+background-position
+
+BORDE REDONDEADO: border-radius - border radius: 10px 10px 80px 0px
+
+SOMBRA: box-shadow (eje x - eje y - desenfoque- color)
+text-shadow: sombra del texto
+
+COLUMNAS:
+column-count: cantidad de columnas
+column-gap: medaida separacion
+column-rule: linea de separación
+
+TIPOGRAFIA
+FONTS DE GOOGLE
+linkear en html y agregar en css
+font-family: 'Poppins', sans-serif;
+font-family: 'Square Peg', cursive;
 
 
 ----HTML----
@@ -28,11 +43,11 @@ div: caja contenedora
 
 
 body{
-    background-color: #dbd7ff;
+    background-color: #d9f5d9;
 }
 
 
-.caja{
+/*.caja{
     width: 300px;
     height: 300px;
     margin: 100px;
@@ -44,42 +59,56 @@ body{
     box-sizing: border-box;
     border-radius: 20px 20px 80px 20px;
     box-shadow: 10px 10px 5px;
-
 }
+*/
+
+
 .header{
-    color: #043b04;
+    font-family: 'Square Peg';
+    font-size: 50px;
+    color: #06432f;
     width: fit-content;
     max-width: 1200px;
     margin: 0 auto;
-    overflow: hidden;
-    size: 100mm;
+    size: 300px;
     font-style: italic;
 }
 
 .img{
-    text-align: center;
+    padding: 10px; 
+    margin: 10px; 
+    border: 2px solid black; 
+    width: 250px;
 }
 
 .datos{
-    text-align: center;
-    color: #043b04;
-    font-style: italic;
+    width: 1000px;
+    height: 300px;
+    margin: 100px;
+    background: #06432f;
+    background: linear-gradient(38deg,#06432f 10%, #b2ffb2 80%);
+    background: -webkit-linear-gradient(38deg,#06432f 10%, #b2ffb2 80%);
+    background: -moz-linear-gradient(38deg,#06432f 10%, #b2ffb2 80%);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px 20px 80px 20px;
+    box-shadow: 10px 10px 5px;
 }
-
-.datos p{
-    text-align: center;
-    color: #043b04;
-    font-style: italic;
-}
-
-
 
 
 
 .resumen{
-    text-align: center;
-    color: #043b04;
-    font-style: italic;
+    width: 1000px;
+    height: 300px;
+    margin: 100px;
+    background: #06432f;
+    background: linear-gradient(38deg,#06432f 10%, #b2ffb2 80%);
+    background: -webkit-linear-gradient(38deg,#06432f 10%, #b2ffb2 80%);
+    background: -moz-linear-gradient(38deg,#06432f 10%, #b2ffb2 80%);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px 20px 80px 20px;
+    box-shadow: 10px 10px 5px;
 }
 
 
@@ -87,12 +116,13 @@ body{
 
 
 .fa{
-    color: #043b04;
-    font-style: italic;
+    color: #06432f;
+    font-family: 'Square Peg';
+    font-size: 30px;
 }
 
 .fa1{
-    color: #043b04;
+    color: #06432f;
     font-style: italic;
 }
 
@@ -100,17 +130,16 @@ body{
 
 
 .el{
-    color: #043b04;
+    color: #06432f;
     font-style: italic;
+    font-family: 'Square Peg';
+    font-size: 30px;
 }
 
 
 
-
-
-
 .footer{  
-    text-align: right;
+    text-align: center;
     content: "";
 	display: inline-block;
 	height: 2px;
@@ -121,10 +150,16 @@ body{
 	z-index: 1;
 }
 
+
 .footer a{
     text-align: center;
     width: 100%;
     color: #1d009e;
 	background: #ffffff;
 	position: relative;
+}
+
+.grande{
+    color: #1d009e;
+    font-size: 30px;
 }
