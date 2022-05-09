@@ -5,7 +5,7 @@ class (Varias) - llamarlo con .
 
 
 
-----CSS----
+----CSS-------------------------------------------
 text- align = posición
 text- transform: mayuscula o minuscula
 fon-size: tamaño letra
@@ -14,7 +14,8 @@ width: ancho
 height: alto
 padding: separar contenido del borde
 box-sizing: dentro del div
-margin: margenes 
+margin: (margenes)
+cursor: pointer; (cambia el cursor al pisar una caja)
 
 GRANDIENTS (GRADIANTES) : colores para fondo (background)
 background-position
@@ -34,6 +35,27 @@ FONTS DE GOOGLE
 linkear en html y agregar en css
 font-family: 'Poppins', sans-serif;
 font-family: 'Square Peg', cursive;
+
+PSEUDOCLASES(se le añade a los selectores)  
+:hover (cuando pasas por la imagen cambia de colores y demas)
+
+PSUEDOSELECTORES(se le añade estilo a una parte del documento - iconos, colores, palabras -)
+
+POSICIONAMIENTO
+position;
++normal  (static)
++relativo (relative)
++absouluto (absolute)
++fijo (fixed)(escroleas -bajas o subies en la pag- y la caja siempre queda fija
+
+FLEXBOX
+display: (propiedad) flex; - inline-flex;
+Direccion: row; - row-reverse; (HORIZONTAL)- column; - column-reverse; (VERTICAL)
+flex-wrap: nowrap; - wrap; - wrap-reverse;
+Alineacion: flex-start; flex-end; - center;  space-between;(espacios) - space-around; space-evently;
+
+
+
 
 
 ----HTML----

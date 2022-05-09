@@ -1,0 +1,35 @@
+.container-fluid{
+    background-color: rgb(245, 40, 40);
+    color: white;
+}
+
+.imagen{
+    text-align: center;
+    width: 10px;
+    background-color: rgb(245, 40, 40);
+    padding: 20px;
+}
+
+h1{
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.col{
+    font-family: sans-serif;
+}
+
+.box{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: rgb(245, 40, 40);
+    color: black;
+}
+
+.mail{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    border-radius: 10px 50px 10px 50px;
+}
