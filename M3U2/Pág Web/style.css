@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'roboto', sans-serif;
+}
+
+
+h1{font-size: 3.5em; }
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+ul{ list-style: none;}
+
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 5px 30px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px black;
+    background-color: rgb(26, 143, 252);
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(0, 45, 243);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+    
+}
+
+header{
+    background-color: rgb(245, 245, 245);
+    position: fixed;
+    width: 100%;
+}
+
+nav .activo{
+    background-color: rgb(90, 118, 245);
+    border-radius: 3px 3px 30px;
+}
+
+
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(0, 97, 189);
+    font-size: 1.8em;
+    
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+    
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: rgb(0, 97, 189);
+}
+
+/*   --------------- 2parte */
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(./media/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero button{
+    font-size: 1.75em;
+}
+
+#hero h1{
+    color: white;
+}
+
+/* ------------------------------ */
+
+#parte3 .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+.colorpalabra{
+    color: rgb(0, 97, 189);
+}
+
+#parte3 .img-container{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url(./media/somos-proya.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px;
+}
+
+#parte3 .texto{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+/*--------------------------*/
+
+#parte4 {
+    background-color: rgb(30 30 30);
+    color: white;
+    text-align: center;
+}
+
+#parte4 .container{
+    padding: 150px 12px;
+    
+
+}
+
+#parte4 h2{
+    margin-top: 0;
+    -webkit-text-stroke: 0;
+    color: transparent; 
+    color: white;
+    font-size: 3.2em;
+}
+
+#parte4 p{
+    display: none;
+}
+
+#parte4 .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(./media/ableton.jpg);
+   
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(./media/fl.jpg);
+   
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(./media/reaper.jpg);
+    
+}
+
+.programas{
+    -webkit-text-stroke: 1px black;
+    color: transparent; 
+    color: white;
+    
+}
+
+
+/*--------------- parte5 */
+
+#parte5 .container{
+
+    text-align: center;
+    padding: 250px 12px;
+    font-size: 2em;
+}
+
+#parte5 li{
+    margin: 16px 0px;
+    font-weight: bold;
+
+}
+
+/*-------------- parte6 */
+
+#parte6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-color: rgb(30,30,30);
+    color: white;
+    
+}
+
+#parte6 button{
+    font-size: 30px;
+}
+
+#parte6 h2{
+    font-size: 70px;
+}
+
+
+
+/*-------parte 7*/
+
+footer{
+    background-color: rgb(230, 230, 230);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+
