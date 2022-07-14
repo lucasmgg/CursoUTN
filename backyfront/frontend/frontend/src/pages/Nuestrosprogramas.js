@@ -1,11 +1,14 @@
-const nuestrosprogramas = (props) => {
+import { Link } from "react-router-dom";
+
+
+const Nuestrosprogramas = (props) => {
     return (
-        <div>Index
+        <div>
             <h2>
-                HOLASD QWEQWEQWEQ ASDA S
+                Hola
             </h2>
         </div>
     );
 }
 
-export default nuestrosprogramas;
+export default Nuestrosprogramas;

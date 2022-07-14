@@ -1,6 +1,6 @@
 const Footer = (props) => {
     return (
-        <div>Eesto es el pie</div>
+        <div></div>
     );
 }
 export default Footer;

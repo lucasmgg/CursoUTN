@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +35,74 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: 'roboto', sans-serif;
+}
+
+
+h1{font-size: 3.5em; }
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+ul{ list-style: none;}
+
+
+button{
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 5px 30px;
+  border-radius: 15px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 10px black;
+  background-color: rgb(26, 143, 252);
+  color: white;
+}
+
+button:hover{
+  background-color: rgb(0, 45, 243);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+
+.container{
+  max-width: 100%;
+  margin: auto; 
+}
+
+header{
+  background-color: rgb(245, 245, 245);
+  position: fixed;
+  width: 100%;
+}
+
+nav .activo{
+  background-color: rgb(90, 118, 245);
+  border-radius: 3px 3px 30px;
+}
+
+
+
+header .logo{
+  margin: 0;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: rgb(0, 97, 189);
+  font-size: 1.8em;
+  
+}
+
+header .container{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  
 }

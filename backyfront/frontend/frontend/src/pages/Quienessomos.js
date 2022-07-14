@@ -1,8 +1,10 @@
-const quienessomos = (props) => {
+
+
+const Quienessomos = (props) => {
     return (
-        <div>Index</div>
+        <div>Quienessomos</div>
         
     );
 }
 
-export default quienessomos;
+export default Quienessomos;
