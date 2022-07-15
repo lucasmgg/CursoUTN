@@ -3,9 +3,9 @@
 }
 
 body{
+    width: 100%;
     margin: 0;
     font-family: 'roboto', sans-serif;
-    background-color: rgb(245, 245, 245);
 }
 
 
@@ -35,13 +35,14 @@ button:hover{
 
 
 .container{
-    max-width: 100%;
+    width: 100%;
     margin: auto; 
+    background-color: red;
 }
 
 header{
     background-color: rgb(245, 245, 245);
-    position: relative;
+    position: fixed;
     width: 100%;
 }
 

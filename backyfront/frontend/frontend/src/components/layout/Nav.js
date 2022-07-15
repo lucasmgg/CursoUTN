@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import '../../../../frontend/src/styles/layout.css'
+
+import '../../../../frontend/src/styles/style.css'
 
 
 const Nav = (props) => {
@@ -7,11 +7,17 @@ const Nav = (props) => {
         <nav>
             <div className="container">
                 
-                <Link to="/"><p class="logo">Tu Música Ahora!</p></Link>
-                <Link to="Quienessomos">Quienes somos</Link>
-                <Link to="Nuestrosprogramas">Nuestro programas</Link>
-                <Link to="Registrate">Registrate</Link> 
-                
+                <header>
+                    <div class="container">
+                        <a href="/"><p class="logo">Tu Música Ahora!</p></a>
+                        <nav>
+                    <a href="Quienessomos.html">Quienes somos</a>
+                    <a href="Nuestrosprogramas.html">Nuestro programas</a>
+                    <a href="Registrate.html">Registrate</a>
+                        </nav>
+                    </div>
+                </header>
+                    
             </div>
         </nav>
         
