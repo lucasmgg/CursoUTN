@@ -10,7 +10,7 @@ import Footer from './components/layout/Footer';
 import Index from './pages/Index';
 import Nuestrosprogramas from './pages/Nuestrosprogramas';
 import Quienessomos from './pages/Quienessomos';
-import Regristrate from './pages/Registrate';
+import Registrate from './pages/Registrate';
 
 
 
@@ -19,18 +19,22 @@ function App() {
   return (
     <div className="App">
       <Header/>
-     
+      
         <BrowserRouter>
+          
           <Nav/>
+          
             <Routes>
                 <Route path='/' element= {<Index />} />
-                <Route path='Nuestrosprogramas' element= {<Nuestrosprogramas />} />
+                <Route path='Nuestrosprogramas' element= {<Nuestrosprogramas/>} />
                 <Route path='Quienessomos' element= {<Quienessomos />} />
-                <Route path='Registrate' element= {<Regristrate />} />
+                <Route path='Registrate' element= {<Registrate />} />
+               
             </Routes>
+      
+            
         </BrowserRouter>
-
-     
+      
       <Footer/>
  
     </div>

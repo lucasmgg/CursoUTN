@@ -120,8 +120,10 @@ header a:hover{
 /* ------------------------------ */
 
 #parte3 .container{
+    background-color: rgb(245, 245, 245);
     text-align: center;
     padding: 200px 12px;
+    display: flex;
 }
 
 .colorpalabra{
@@ -138,10 +140,12 @@ header a:hover{
     background-position: center center;
     height: 500px;
     width: 400px;
+    
+   
 }
 
 #parte3 .texto{
-    display: flex;
+    display: row;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
@@ -254,7 +258,8 @@ header a:hover{
 }
 
 #parte6 h2{
-    font-size: 70px;
+    height: 20vh;
+    font-size: 50px;
 }
 
 

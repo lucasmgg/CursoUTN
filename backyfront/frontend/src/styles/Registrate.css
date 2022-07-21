@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    font-family: 'roboto', sans-serif;
+}
+
+.parte1 {
+    background-color: red;
+    display: flex;
+}
+
+.parte2 {
+    background-color: aqua;
+    padding: 100px;
+    display: block;
+    text-align: center;
+}
+
